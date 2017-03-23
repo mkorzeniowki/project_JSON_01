@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+    <meta charset="utf-8">
+    <title> gulp project 01 </title>
+    <!--build:css css/main-min.css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <h1> BOOKS LIST </h1>
+      </div>
+    </header>
+    <section id="books">
+      <div id="search-wrapper">
+        <div class="search-left">
+          <input type="text" id="searchBook">
+          <button id="searchButton"><img src="img/search.png" alt=""> Szukaj </button>
+        </div>
+        <div class="search-right">
+          <form action="" id="myForm">
+            <input type="radio" name="search-type" value="author" checked=""> Autor </input>
+            <input type="radio" name="search-type" value="title"> Tytuł </input>
+            <input type="radio" name="search-type" value="all"> Pokaż wszystko </input>
+          </form>
+        </div>
+      </div>
+      </div>
+      <div class="books-list-wrapper">
+        <div id="books-list-content">
+          tu bd ksiażki
+        </div>
+      </div>
+    </section>
+
+  </body>
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/script1.js"></script>
+</html>
